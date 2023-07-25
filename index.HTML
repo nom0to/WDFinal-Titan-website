@@ -2,128 +2,123 @@
 <html>
 
 <head>
-    <title>Titan Motorsports</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu Condensed' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
+  <title>Titan Motorsports</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu Condensed' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
 </head>
 
 <body>
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <div class="header">
-        <a href="index.HTML" class="logo">TITAN Motorsports</a>
-        <div class="header-right">
-            <input type="text" name="search" placeholder="Search..">
-            <a class="active" href="ProuductsMake.HTML">Products By Make</a>
-            <a href="ProductsBrand.HTML">Products By Brand</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a id="cart" href="cart.html"><i class="fa fa-shopping-cart"></i></a>
-        </div>
+  <div class="header">
+    <a href="index.HTML" class="logo">TITAN Motorsports</a>
+    <div class="header-right">
+      <input type="text" name="search" placeholder="Search..">
+      <a class="active" href="ProuductsMake.HTML">Products By Make</a>
+      <a href="ProductsBrand.HTML">Products By Brand</a>
+      <a class=".text-white" href="#contact">Contact</a>
+      <a href="#about">Careers</a>
+      <a id="cart" href="cart.html"><i class="fa fa-shopping-cart"></i></a>
     </div>
-    <div class="Subheader">Featured</div>
-    <hr class="solid">
+  </div>
+  <div class="Subheader">Featured</div>
+  <hr class="solid">
 
-    <div id="carouselOne" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100 img-fluid" src="slideshow_2.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 img-fluid" src="Supra.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 img-fluid" src="Wilwood.jpg" alt="Third slide">
-            </div>
+  <div id="carouselOne" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 img-fluid" src="slideshow_2.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="Supra.jpg" alt="Second slide">
+        <div class="carousel-caption">
+          <h1>The parts you need to make your Supra, super!</h1>
         </div>
-
-        <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselOne" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 img-fluid" src="Wilwood.jpg" alt="Third slide">
+      </div>
     </div>
-    <hr class="solid">
-    <div class="Subheader">New Products</div>
-     <!--Add a party ewmoji here with an animation. If you can make it work.-->
-    
 
-    <!-- Product grid -->
-  <div class="w3-row w3-grayscale">
+    <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselOne" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <hr class="solid">
+  <div class="Subheader">New Products</div>
+  <!--Add a party ewmoji here with an animation. If you can make it work.-->
+
+
+  <!-- Product grid -->
+  <div id="product" class="w3-row w3-grayscale">
     <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <img src="https://www.w3schools.com/w3images/jeans1.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+      <div class="w3-container img-fluid">
+        <img src="Garret_turbo.jpg" style="width:100%">
+        <a href="turboPage.html"> Garret GT56R<br><b>$1124.99</b></a>
       </div>
-      <div class="w3-container">
-        <img src="https://www.w3schools.com/w3images/jeans2.jpg" style="width:100%">
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
-      </div>
-    </div>
-
-    <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img src="https://www.w3schools.com/w3images/jeans2.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">New</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
-        </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
-      </div>
-      <div class="w3-container">
-        <img src="https://www.w3schools.com/w3images/jeans3.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+      <div class="w3-container img-fluid">
+        <img src="BV50mm.jpg" style="width:100%">
+        <a  href="OilDran.html">Precision Turbo Blow-off Valve<br><b>$89</b></a>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <img src="https://www.w3schools.com/w3images/jeans3.jpg" style="width:100%">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
-      </div>
-      <div class="w3-container">
-        <div class="w3-display-container">
-          <img src="https://www.w3schools.com/w3images/jeans4.jpg" style="width:100%">
-          <span class="w3-tag w3-display-topleft">Sale</span>
-          <div class="w3-display-middle w3-display-hover">
-            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-          </div>
+      <div class="w3-container img-fluid">
+        <div class="w3-display-container img-fluid">
+          <img src="VIB_11362_001_34179b8d-7317-49d0-b2c3-1ae3d5c23ca4.jpg" style="width:100%">
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <a  href="OilDran.html">10AN Drain Port<br><b>$39.99</b></a>
+      </div>
+      <div class="w3-container img-fluid">
+        <img src="image_proxy_9.jpg" style="width:100%">
+        <a  href="OilDran.html">GR Supra Front Spoiler<br><b>$220.50</b></a>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
-      <div class="w3-container">
-        <img src="https://www.w3schools.com/w3images/jeans4.jpg" style="width:100%">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+      <div class="w3-container img-fluid">
+        <img src="TMS_SUP-TUR-100_001.jpg" style="width:100%">
+        <a href="OilDrain.html">Turbo Oil Drain lin kit for Garrett and T3/T4 turbos<br><b>$120.50</b></a>
       </div>
-      <div class="w3-container">
-        <img src="https://www.w3schools.com/w3images/jeans1.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+      <div class="w3-container img-fluid">
+        <div class="w3-display-container ">
+          <img src="eibach-prokit-de-BMW-1.jpg" style="width:100%">
+        </div>
+        <a href="OilDran.html">Eibach Pro lowering springs kit for Toyota GR Supra<br><b>$414.99</b></a>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container img-fluid">
+        <img src="V-TE37_ULTRA_DiamondBlack.jpg" style="width:100%">
+        <a  href="OilDran.html">Volk Racing TE37 Diamond Black<br><b>$914.99</b></a>
+      </div>
+      <div class="w3-container img-fluid">
+        <img src="tc4_gunmetal_white.jpg" style="width:100%">
+        <a  href="OilDran.html">Advan TC4 Racing-Black Gunmetallic <br><b>$225.99</b></a>
       </div>
     </div>
   </div>
 
-    
 
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
 </body>
 
 </html>

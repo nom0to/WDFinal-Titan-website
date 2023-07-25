@@ -52,22 +52,31 @@
   border-top: 4px solid #8800e4;
   clear: both;
 }
-
+.header a {
+  color: white;
+  font-family: Ubuntu Mono;
+}
 /* Change the background color on mouse-over */
 .header a:hover {
   background-color: #ddd;
   color: black;
 }
 
+
 /* Style the active/current link*/
 .header a.active {
   background-color: #8800e4;
-  color: white;
+  color: #29ff7a;
 }
 
 /* Float the link section to the right */
 .header-right {
   float: right;
+}
+
+#product {
+  font-family: Ubuntu Mono;
+  font-size: 20px;
 }
 
 input[type=text] {
@@ -87,6 +96,7 @@ img {
   width: 1280px;
   height: 620px;
   margin-right: 15%;
+  object-fit:contain;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other and stretch the search bar 
@@ -102,8 +112,17 @@ img {
     float: none;
   }
 
+  
+
   input[type=text] {
     float: none;
     width: 100%;
+  }
+}
+/*Caption ends up covering the car in photo on smalls screens, hiding it for now*/
+@media screen and (max-width: 550px) {
+
+  .carousel-caption {
+    display: none;
   }
 }
