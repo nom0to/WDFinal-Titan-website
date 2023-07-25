@@ -62,6 +62,11 @@
   color: black;
 }
 
+.foot{
+  background-color: #545454 !important;
+  font-family: Arvo;
+
+}
 
 /* Style the active/current link*/
 .header a.active {
@@ -120,7 +125,7 @@ img {
   }
 }
 /*Caption ends up covering the car in photo on smalls screens, hiding it for now*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
 
   .carousel-caption {
     display: none;
